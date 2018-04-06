@@ -1,7 +1,9 @@
 sudo: required
 dist: trusty
+cache:
+  apt: true
 before_install:
-- sudo apt-get -qq update && sudo apt-get install texlive-full
+- sudo apt-get -qq update && sudo apt-get install -y texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended texlive-publishers texlive-lang-portuguese
 script:
 - mkdir _build
 - pdflatex -interaction=nonstopmode -halt-on-error -output-directory _build manutencao.tex
