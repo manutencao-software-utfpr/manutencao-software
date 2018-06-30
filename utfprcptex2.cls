@@ -1826,7 +1826,7 @@ Veja a documenta\c c\~ao para mais detalhes.}}
     \thispagestyle{empty}
 
     \global\@topnum\z@
-	\@afterindentfalse
+%	\@afterindentfalse
 	\@afterheading
 	\@mkboth{\contentsname}{\contentsname}
 	\@starttoc{toc}
