@@ -1,0 +1,285 @@
+% Identification and Control of the plan
+\chapter{2 Análise do problema e da modificação}
+
+% 1.a IMPACT ANALYSIS
+\section{a. Análise de Impácto}
+	\subsection{Lista de modificações requisitadas}
+	\begin{itemize}
+		\item mod1 Anúncios estão ocupando grande parte da tela (Corretiva)
+		
+		Tipo de teste: Teste de Interface
+		\item mod2 Adicionar campo para buscar por cidade na tela inicial (Perfectiva)
+
+		Tipo de teste: Teste de Interface
+		\item mod3 Remover label estabelecimentos fechados e abertos (Corretiva)
+
+		Tipo de teste: Teste de Interface
+		\item mod4 Remover carrinho de compras (Corretiva)
+
+		Tipo de teste: Teste de Interface
+		\item mod5 Melhorar o layout do footer (Perfectiva)
+
+		Tipo de teste: Teste de Interface
+		\item mod6 Mostrar tempo estimado de entrega (Perfectiva)
+
+		Tipo de teste: Teste de Interface
+		\item mod7 melhorar o layout dos cardápios, como produtos são mostrados no cardápio (Perfectiva)
+
+		Tipo de teste: Teste de Interface
+		\item mod8 Links quebrados (Corretiva)
+
+		Tipo de teste: Teste de Interface
+		\item mod9 Migrar o front end para Vue js. (Perfectiva)
+
+		Tipo de teste: Teste de Interface/Integração
+		\item mod10 Migrar o back end para Node js. (Perfectiva)
+
+		Tipo de teste: Teste de Integração/Unitário
+	\end{itemize}
+
+	\linebreak
+	\linebreak
+	\linebreak
+
+% 1.b Statement of the problem or new requirement
+	\subsection{1) Situação do problema ou do novo requisito}
+	\begin{itemize}
+		\item mod1 Anúncios estão ocupando grande parte da tela (Corretiva)
+		
+		Situação: Este problema dificulta a visualização dos cardapios.
+		\item mod2 Adicionar campo para buscar por cidade na tela inicial (Perfectiva)
+		
+		Situação: Esta melhoria facilita a busca por cidades.
+		\item mod3 Remover label estabelecimentos fechados e abertos (Corretiva)
+		
+		Situação: Como não está funcionando como deveria, será removido.
+		\item mod4 Remover carrinho de compras (Corretiva)
+		
+		Situação: Esta correção é necessária pois não estamos permitindo realização de pedidos ainda.
+		\item mod5 Melhorar o layout do footer (Perfectiva)
+		
+		Situação: Para que o usuário possa encontrar os links ativosdo site com facilidade é necessária essa melhoria.
+		\item mod6 Mostrar tempo estimado de entrega (Perfectiva)
+		
+		Situação: Para facilitar a escolha de qual estabelecimento será escolhido pelo cliente.
+		\item mod7 melhorar o layout dos cardápios, como produtos são mostrados no cardápio (Perfectiva)
+		
+		Situação: Os produtos não possuem imagens, logo a imagem do produto será removida.
+		\item mod8 Links quebrados (Corretiva)
+		
+		Situação: Os links do footer não estão funcionando corretamente.
+		\item mod9 Migrar o front end para Vue js. (Perfectiva)
+		
+		Situação: Para melhorar a estrutura do código e facilitar futuras modificações.
+		\item mod10 Migrar o back end para Node js. (Perfectiva)
+		
+		Situação: Para melhorar a estrutura  do código e facilitar futuras modificações.
+	\end{itemize}
+		\linebreak
+	\linebreak
+	\linebreak
+
+
+	% Problem or requirement evaluation
+	\subsection{2) Avaliação do problema ou requisito}
+
+	\begin{itemize}
+		\item mod1 Anúncios estão ocupando grande parte da tela (Corretiva)
+		
+		Avaliação: Implicará na alteração do layout.
+		\item mod2 Adicionar campo para buscar por cidade na tela inicial (Perfectiva)
+		
+		Avaliação: Implicará na alteração do layout, e na alteração do back end.
+		\item mod3 Remover label estabelecimentos fechados e abertos (Corretiva)
+		
+		Avaliação: Implicará na alteração do layout.
+		\item mod4 Remover carrinho de compras (Corretiva)
+		
+		Avaliação: Implicará na alteração do layout.
+		\item mod5 Melhorar o layout do footer (Perfectiva)
+		
+		Avaliação: Implicará na alteração do layout.
+		\item mod6 Mostrar tempo estimado de entrega (Perfectiva)
+		
+		Avaliação: Implicará na alteração do layout, e do back end.
+		\item mod7 melhorar o layout dos cardápios, como produtos são mostrados no cardápio (Perfectiva)
+		
+		Avaliação: Implicará na alteração do layout.
+		\item mod8 Links quebrados (Corretiva)
+		
+		Avaliação: Implicará na alteração do layout.
+		\item mod9 Migrar o front end para Vue js. (Perfectiva)
+		
+		Avaliação: Implicará na refatoração de todo o código do front end.
+		\item mod10 Migrar o back end para Node js. (Perfectiva)
+		
+		Avaliação: Implicará na refatoração de todo o código do back end.
+	\end{itemize}
+
+	\linebreak
+	\linebreak
+	\linebreak
+
+	% Classification of the type of maintenance required
+	\subsection{3) Classificação do tipo de manutenção requerida}
+		\begin{itemize}
+		\item mod1 Anúncios estão ocupando grande parte da tela
+		
+		Tipo de manutenção: (Corretiva).
+		\item mod2 Adicionar campo para buscar por cidade na tela inicial
+		
+		Tipo de manutenção: (Perfectiva).
+		\item mod3 Remover label estabelecimentos fechados e abertos
+		
+		Tipo de manutenção: (Corretiva).
+		\item mod4 Remover carrinho de compras 
+		
+		Tipo de manutenção: (Corretiva).
+		\item mod5 Melhorar o layout do footer
+		
+		Tipo de manutenção: (Perfectiva).
+		\item mod6 Mostrar tempo estimado de entrega 
+		
+		Tipo de manutenção: (Perfectiva).
+		\item mod7 melhorar o layout dos cardápios, como produtos são mostrados no cardápio
+		
+		Tipo de manutenção: (Perfectiva).
+		\item mod8 Links quebrados
+		
+		Tipo de manutenção: (Corretiva).
+		\item mod9 Migrar o front end para Vue js.
+		
+		Tipo de manutenção: (Perfectiva).
+		\item mod10 Migrar o back end para Node js.
+		
+		Tipo de manutenção: (Perfectiva).
+	\end{itemize}
+
+	\linebreak
+	\linebreak
+	\linebreak
+
+	% Initial priority
+	\subsection{4) Prioridade inicial}
+	\begin{itemize}
+		\item mod1 Anúncios estão ocupando grande parte da tela
+		
+		Prioridade: Alta.
+		\item mod2 Adicionar campo para buscar por cidade na tela inicial
+		
+		Prioridade: Baixa.
+		\item mod3 Remover label estabelecimentos fechados e abertos
+		
+		Prioridade: Alta.
+		\item mod4 Remover carrinho de compras 
+		
+		Prioridade: Alta.
+		\item mod5 Melhorar o layout do footer
+		
+		Prioridade: Alta.
+		\item mod6 Mostrar tempo estimado de entrega 
+		
+		Prioridade: Baixa.
+		\item mod7 melhorar o layout dos cardápios, como produtos são mostrados no cardápio
+		
+		Prioridade: Alta.
+		\item mod8 Links quebrados
+		
+		Prioridade: Alta.
+		\item mod9 Migrar o front end para Vue js.
+		
+		Prioridade: Alta.
+		\item mod10 Migrar o back end para Node js.
+		
+		Prioridade: Alta.
+	\end{itemize}
+
+	% Verification data (for corrective modifications)
+	\subsection{5) Verificação de dados (Para modificações corretivas)}
+	\begin{itemize}
+		\item mod1 Anúncios estão ocupando grande parte da tela (Corretiva)
+		
+		Verificação: Verificar se existe mais espaço para o cardápio.
+		\item mod3 Remover label estabelecimentos fechados e abertos (Corretiva)
+
+		Verificação: Verificar se a label foi removida.
+		\item mod4 Remover carrinho de compras (Corretiva)
+
+		Verificação: Verificar se o carrinho foi removido.
+		\item mod8 Links quebrados (Corretiva)
+
+		Verificação: Verificar se os links estão funcionando.
+	\end{itemize}
+
+	\linebreak
+	\linebreak
+	\linebreak
+
+
+
+	% Initial estimate of resources required to modify the existing system.
+	\subsection{6) Estimação inicial de recursos necessários para modificar o sistema existente.}
+
+	Os recursos definidos no plano são os necessários.
+
+% 2.b RECOMMENDED OPTION
+\section{b. Opção recomendada}
+Não se aplica.
+
+% 2.c Approved DOCUMENTATION
+\section{c. Modificações aprovadas}
+	\begin{itemize}
+		\item mod1 Anúncios estão ocupando grande parte da tela (Corretiva)
+		
+		Situação: APROVADA
+		\item mod2 Adicionar campo para buscar por cidade na tela inicial (Perfectiva)
+
+		Situação: APROVADA
+		\item mod3 Remover label estabelecimentos fechados e abertos (Corretiva)
+
+		Situação: APROVADA
+		\item mod4 Remover carrinho de compras (Corretiva)
+
+		Situação: APROVADA
+		\item mod5 Melhorar o layout do footer (Perfectiva)
+
+		Situação: APROVADA
+		\item mod6 Mostrar tempo estimado de entrega (Perfectiva)
+
+		Situação: APROVADA
+		\item mod7 melhorar o layout dos cardápios, como produtos são mostrados no cardápio (Perfectiva)
+
+		Situação: APROVADA
+		\item mod8 Links quebrados (Corretiva)
+
+		Situação: APROVADA
+		\item mod9 Migrar o front end para Vue js. (Perfectiva)
+
+		Situação: APROVADA
+		\item mod10 Migrar o back end para Node js. (Perfectiva)
+
+		Situação: APROVADA
+	\end{itemize}
+
+
+% 2. UPDATED DOCUMENTATION
+\section{d. Documentação atualizada}
+
+	Diagrama de casos de uso adicionado.
+	
+	Descrição dos testes unitários adicionados.
+
+% 2.e RISK ANALYSIS
+\section{e. Análise de Risco}
+		\begin{itemize}
+			\item Servidores atuais ficarem offline
+			
+			Fazer a contratação de serviços da Google Cloud, Heroku, Diigital Ocean ou AWS.
+			\item Usuários pararem de usar o sistema por não gostarem
+			
+			Utilizar um mecanismo de obtenção de feedbacks do usuário.
+			\item Usuários pararem de usar o sistema por não conseguirem acesso
+			
+			Utilizar um mecanismo de obtenção de status de funcionamento dos serviços de forma automatizada.
+		\end{itemize}
+
